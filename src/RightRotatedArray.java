@@ -1,5 +1,5 @@
 import java.util.*;
-class RotatedArray {
+class RightRotatedArray {
     public static int[] rotate(int[] nums, int k) {
         int n = nums.length;
         int temp[] = new int[n];
