@@ -31,7 +31,8 @@ public class Largest_SubArray_Sum_0_1 {
         return maxLen;
     }
     public static void main(String[] args) {
-        int arr[] = {5,-2,2,-8,1,7,10,23};
+        //int arr[] = {5,-2,2,-8,1,7,10,23};
+        int[] arr = {2,0,0,3};
         System.out.println(maxLen(arr,arr.length));
 
     }

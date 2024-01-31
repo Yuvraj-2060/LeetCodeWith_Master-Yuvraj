@@ -26,7 +26,9 @@ public class Largest_SubArray_K_Sum_2 {
     }
     public static void main(String args[])
     {
-        int[] arr = {5,-2,2,-8,1,7,10,23};
+        //int[] arr = {5,-2,2,-8,1,7,10,23};
+        int[] arr = {2,0,0,3};
+
         int n = arr.length;
         int k = 10;
         System.out.println("Length = " +lenOfLongSubarr(arr, n, k));
