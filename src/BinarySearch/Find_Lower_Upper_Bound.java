@@ -1,3 +1,5 @@
+package BinarySearch;
+
 public class Find_Lower_Upper_Bound {
     public static int[] getFloorAndCeil(int[] a, int n, int x) {
 

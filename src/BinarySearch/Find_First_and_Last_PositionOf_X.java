@@ -1,3 +1,5 @@
+package BinarySearch;
+
 public class Find_First_and_Last_PositionOf_X {
     static int[] searchRange(int[] nums, int target) {
 
