@@ -1,6 +1,6 @@
 package BinarySearch;
 
-public class Find_First_and_Last_PositionOf_X {
+public class Find_First_and_Last_PositionOf_X1 {
     static int[] searchRange(int[] nums, int target) {
 
         int lb = LowerBound(nums,nums.length,target);
