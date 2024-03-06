@@ -2,7 +2,7 @@ package String;
 
 import java.util.Stack;
 
-public class Remove_Outermost_Parenthesis {
+public class Remove_Outermost_Parenthesis1 {
     public static String removeOuterParentheses(String s) {
         Stack<Character> bracket = new Stack<>();
         StringBuilder sb = new StringBuilder("");
