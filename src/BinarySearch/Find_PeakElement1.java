@@ -4,6 +4,7 @@ public class Find_PeakElement1 {
         int n =nums.length;
 
         if(nums.length==1) return 0;
+
         if(nums[0]>nums[1])
             return 0;
         if(nums[n-1]>nums[n-2])
