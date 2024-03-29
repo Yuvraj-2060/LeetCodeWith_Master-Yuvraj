@@ -2,21 +2,16 @@ package String;
 
 public class Isomorphic_String2 {
     public static boolean isIsomorphic(String s, String t) {
-        int sLetters[] = new int[256];
-        int tLetters[] = new int[256];
-
-        for(int index = 0; index < s.length(); ++index) {
-            char sC = s.charAt(index);
-            char tC = t.charAt(index);
-            if(tLetters[tC] == 0 && sLetters[sC] == 0) {
-                sLetters[sC] = tC;
-                tLetters[tC] = sC;
-            }
-            else {
-                if(tLetters[tC] != sC || sLetters[sC] != tC) {
-                    return false;
-                }
-            }
+        int map1[]=new int[200];
+        int map2[]=new int[200];//Initialises with zeros
+        if(s.length()!=t.length())
+            return false;
+        for(int idx=0;idx<s.length();idx++)
+        {
+            if(map1[s.charAt(idx)]!=map2[t.charAt(idx)])
+                return false;
+            map1[s.charAt(idx)]=idx+1;
+            map2[t.charAt(idx)]=idx+1;
         }
         return true;
     }
