@@ -1,40 +1,40 @@
-1). Two Pointer
+## 1). Two Pointer
 
-2). Island (Matrix Traversal)
+## 2). Island (Matrix Traversal)
 
-3). Fast & Slow Pointers
+## 3). Fast & Slow Pointers
 
-4). Sliding Window
+## 4). Sliding Window
 
-5). Merge Intervals
+## 5). Merge Intervals
 
-6). Cyclic Sort
+## 6). Cyclic Sort
 
-7). In-Place Reversal Of A Linked List
+## 7). In-Place Reversal Of A Linked List
 
-8). Tree Breadth First Search
+## 8). Tree Breadth First Search
 
-9). Tree Depth First Search
+## 9). Tree Depth First Search
 
-10). Two Heap
+## 10). Two Heap
 
-11). Subsets
+## 11). Subsets
 
-12). Modified Binary Search
+## 12). Modified Binary Search
 
-13). Top 'K' Elements
+## 13). Top 'K' Elements
 
-14). Bitwise XOR
+## 14). Bitwise XOR
 
-15). Backtracking
+## 15). Backtracking
 
-16). 0/1 Knapsack (Dynamic Programming)
+## 16). 0/1 Knapsack (Dynamic Programming)
 
-17). Topological Sort(Grap)
+## 17). Topological Sort(Grap)
 
-18). K-way Merge
+## 18). K-way Merge
 
-19). Monotonic Stack
+## 19). Monotonic Stack
 
-20). Multi-Threaded
+## 20). Multi-Threaded
 
