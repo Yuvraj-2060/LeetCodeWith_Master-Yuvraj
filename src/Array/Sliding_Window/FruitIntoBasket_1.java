@@ -2,6 +2,7 @@ package Array.Sliding_Window;
 
 import java.util.HashSet;
 
+
 public class FruitIntoBasket_1 {
     public static int totalFruits(int N, int[] fruits) {
 
