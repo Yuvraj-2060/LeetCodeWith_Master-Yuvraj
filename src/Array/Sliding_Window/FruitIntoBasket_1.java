@@ -2,6 +2,7 @@ package Array.Sliding_Window;
 
 import java.util.HashSet;
 
+// Brute Force Approach: O(N2) Time complexity
 
 public class FruitIntoBasket_1 {
     public static int totalFruits(int N, int[] fruits) {
@@ -23,7 +24,7 @@ public class FruitIntoBasket_1 {
     }
 
     public static void main(String[] args) {
-        int arr[] = {2,1,2};
+        int arr[] = {0, 1, 2, 2, 2, 2};
         int n = arr.length;
 
         System.out.println(totalFruits(n, arr));
